@@ -1265,6 +1265,23 @@ footer {
 @media (max-width: 768px) {
   header {
     height: 70px;
+    padding: 0 5%;
+  }
+  .logo-img {
+    height: 48px;
+  }
+  .logo-text {
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+  }
+  section {
+    padding: 60px 6% 50px 6%;
+  }
+  .section-title {
+    font-size: 2.2rem;
+  }
+  .project-overlay {
+    padding: 24px;
   }
   main {
     padding-top: 70px;
@@ -1695,7 +1712,7 @@ footer {
   .values-card {
     padding: 30px 20px;
   }
-  .values-list::before {
+  .values-track-wrapper {
     left: 15px;
   }
   .value-icon {
@@ -1704,6 +1721,35 @@ footer {
   }
   .value-item {
     gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 2.2rem;
+  }
+  .hero-desc {
+    font-size: 0.9rem;
+  }
+  .btn-primary, .btn-secondary {
+    padding: 14px 28px;
+    font-size: 0.9rem;
+  }
+  .about-title {
+    font-size: 2.2rem;
+  }
+  .about-stats-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .about-stat-card {
+    padding: 20px 16px;
+  }
+  .about-stat-num {
+    font-size: 1.6rem;
+  }
+  .about-stat-label {
+    font-size: 0.75rem;
   }
 }
 
