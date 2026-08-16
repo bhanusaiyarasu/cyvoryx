@@ -493,14 +493,29 @@ function App() {
             </a>
           </div>
           <div className="projects-grid">
-            {/* Project 1 */}
+            {/* Project 1: 3D Cyberpunk Portfolio */}
+            <a href="https://bhanusai3dportfolio.vercel.app" target="_blank" rel="noopener noreferrer" className="project-card glass-panel" style={{ textDecoration: 'none' }}>
+              <div className="project-img-container">
+                <img src="/nexora_mockup.png" className="project-img" alt="3D Cyberpunk Portfolio" />
+                <div className="project-overlay">
+                  <h3 className="project-title text-gradient-silver">3D CYBERPUNK PORTFOLIO</h3>
+                  <div className="project-meta">
+                    <span className="project-category">React • Three.js • GSAP • WebGL</span>
+                    <div className="project-arrow">
+                      <ArrowUpRight size={20} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            {/* Project 2: Husk & Harbour */}
             <div className="project-card glass-panel" onClick={(e) => handleScrollTo(e, 'contact')}>
               <div className="project-img-container">
-                <img src="/nexora_mockup.png" className="project-img" alt="3D Website Mockup" />
+                <img src="/lumina_mockup.png" className="project-img" alt="Husk & Harbour E-commerce" />
                 <div className="project-overlay">
-                  <h3 className="project-title text-gradient-silver">3D DESIGN WEBSITE</h3>
+                  <h3 className="project-title text-gradient-silver">HUSK & HARBOUR</h3>
                   <div className="project-meta">
-                    <span className="project-category">3D Interactive • Web Development</span>
+                    <span className="project-category">E-commerce • Fluid Animations • Frontend</span>
                     <div className="project-arrow">
                       <ArrowUpRight size={20} />
                     </div>
@@ -508,29 +523,14 @@ function App() {
                 </div>
               </div>
             </div>
-            {/* Project 2 */}
+            {/* Project 3: Sri Maruthi Aqua World */}
             <div className="project-card glass-panel" onClick={(e) => handleScrollTo(e, 'contact')}>
               <div className="project-img-container">
-                <img src="/lumina_mockup.png" className="project-img" alt="Lumina Studio Mockup" />
+                <img src="/aurora_mockup.png" className="project-img" alt="Sri Maruthi Aqua World" />
                 <div className="project-overlay">
-                  <h3 className="project-title text-gradient-silver">LUMINA STUDIO</h3>
+                  <h3 className="project-title text-gradient-silver">SRI MARUTHI AQUA WORLD</h3>
                   <div className="project-meta">
-                    <span className="project-category">Creative Agency • Web Dev • UI/UX</span>
-                    <div className="project-arrow">
-                      <ArrowUpRight size={20} />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* Project 3 */}
-            <div className="project-card glass-panel" onClick={(e) => handleScrollTo(e, 'contact')}>
-              <div className="project-img-container">
-                <img src="/aurora_mockup.png" className="project-img" alt="Aurora Living Mockup" />
-                <div className="project-overlay">
-                  <h3 className="project-title text-gradient-silver">AURORA LIVING</h3>
-                  <div className="project-meta">
-                    <span className="project-category">Architecture • Web Development</span>
+                    <span className="project-category">Full Frontend • Admin ERP Suite</span>
                     <div className="project-arrow">
                       <ArrowUpRight size={20} />
                     </div>
