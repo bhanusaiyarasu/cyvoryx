@@ -237,7 +237,7 @@ function App() {
       <div className="sidebar-social">
         <span className="sidebar-text">CODE. CREATE. ELEVATE.</span>
         <ul className="social-links">
-          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="LinkedIn"><Linkedin size={18} /></a></li>
+          <li><a href="https://www.linkedin.com/in/bhanusaiyarasu/" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="LinkedIn"><Linkedin size={18} /></a></li>
           <li><a href="https://www.instagram.com/cyvoryx" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="Instagram"><Instagram size={18} /></a></li>
           <li><a href="https://github.com/bhanusaiyarasu" target="_blank" rel="noopener noreferrer" className="social-icon-link" aria-label="GitHub"><Github size={18} /></a></li>
           <li><a href="#contact" onClick={(e) => handleScrollTo(e, 'contact')} className="social-icon-link" aria-label="Mail"><Mail size={18} /></a></li>
@@ -827,7 +827,7 @@ function App() {
           <div className="footer-col">
             <h4>Let's Connect</h4>
             <div className="footer-social-row" style={{ marginBottom: '20px' }}>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="footer-social-btn" aria-label="LinkedIn"><Linkedin size={16} /></a>
+              <a href="https://www.linkedin.com/in/bhanusaiyarasu/" target="_blank" rel="noopener noreferrer" className="footer-social-btn" aria-label="LinkedIn"><Linkedin size={16} /></a>
               <a href="https://www.instagram.com/cyvoryx" target="_blank" rel="noopener noreferrer" className="footer-social-btn" aria-label="Instagram"><Instagram size={16} /></a>
               <a href="https://github.com/bhanusaiyarasu" target="_blank" rel="noopener noreferrer" className="footer-social-btn" aria-label="GitHub"><Github size={16} /></a>
               <a href="#contact" onClick={(e) => handleScrollTo(e, 'contact')} className="footer-social-btn" aria-label="Mail"><Mail size={16} /></a>
@@ -841,7 +841,7 @@ function App() {
         <div className="footer-bottom">
           <span className="copyright">© 2026 CYVORYX. All rights reserved.</span>
           <span className="copyright" style={{ fontSize: '0.85rem' }}>
-            Founder & Developer: <a href="https://velorixis.vercel.app" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-blue)', fontWeight: '600', letterSpacing: '0.05em', textDecoration: 'none' }}>Y. BhanuSai</a>
+            Founder & Developer: <a href="https://bhanusai3dportfolio.vercel.app" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--color-blue)', fontWeight: '600', letterSpacing: '0.05em', textDecoration: 'none' }}>Bhanu Sai Yarasu</a>
           </span>
           <span className="copyright" style={{ fontSize: '0.8rem', opacity: '0.5' }}>Designed & Engineered with Pride.</span>
         </div>
