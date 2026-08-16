@@ -496,7 +496,7 @@ function App() {
             {/* Project 1: 3D Cyberpunk Portfolio */}
             <a href="https://bhanusai3dportfolio.vercel.app" target="_blank" rel="noopener noreferrer" className="project-card glass-panel" style={{ textDecoration: 'none' }}>
               <div className="project-img-container">
-                <img src="/nexora_mockup.png" className="project-img" alt="3D Cyberpunk Portfolio" />
+                <img src="/portfolio_mockup.png" className="project-img" alt="3D Cyberpunk Portfolio" />
                 <div className="project-overlay">
                   <h3 className="project-title text-gradient-silver">3D CYBERPUNK PORTFOLIO</h3>
                   <div className="project-meta">
@@ -511,7 +511,7 @@ function App() {
             {/* Project 2: Husk & Harbour */}
             <div className="project-card glass-panel" onClick={(e) => handleScrollTo(e, 'contact')}>
               <div className="project-img-container">
-                <img src="/lumina_mockup.png" className="project-img" alt="Husk & Harbour E-commerce" />
+                <img src="/husk_mockup.png" className="project-img" alt="Husk & Harbour E-commerce" />
                 <div className="project-overlay">
                   <h3 className="project-title text-gradient-silver">HUSK & HARBOUR</h3>
                   <div className="project-meta">
@@ -526,7 +526,7 @@ function App() {
             {/* Project 3: Sri Maruthi Aqua World */}
             <div className="project-card glass-panel" onClick={(e) => handleScrollTo(e, 'contact')}>
               <div className="project-img-container">
-                <img src="/aurora_mockup.png" className="project-img" alt="Sri Maruthi Aqua World" />
+                <img src="/maruthi_mockup.png" className="project-img" alt="Sri Maruthi Aqua World" />
                 <div className="project-overlay">
                   <h3 className="project-title text-gradient-silver">SRI MARUTHI AQUA WORLD</h3>
                   <div className="project-meta">
